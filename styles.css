@@ -1,4 +1,32 @@
-.container {
+:root {
+    --background-color: rgba(28, 29, 24, 255);
+    --face-color: rgba(158, 155, 147, 255);
+    --strap-color: rgba(120, 64, 28, 255);
+}
+
+body {
     display: flex;
     flex-direction: row;
+    background-color: var(--background-color);
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.left-container > img {
+    max-width: 400vw;
+    max-height: 100vh;
+}
+
+.left-container > figcaption {
+    text-align: center;
+    margin: -5vh auto;
+    color: white;
+}
+
+.left-container > figcaption > a {
+    color: white;
 }
