@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: var(--background-color);
+    font-family: 'Outfit', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .left-container {
@@ -21,6 +22,16 @@ body {
     max-width: 400vw;
     max-height: 100vh;
     z-index: 0;
+}
+
+.left-container > #odin-logo {
+    z-index: 1;
+    position: absolute;
+    width: 65px;
+    height: 68px;
+    left: 2.5%;
+    top: 4%;
+    margin: auto;
 }
 
 .left-container > h1 {
