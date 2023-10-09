@@ -20,17 +20,26 @@ body {
 .left-container > #space-monkey {
     max-width: 400vw;
     max-height: 100vh;
-    position: absolute;
     z-index: 0;
+}
+
+.left-container > h1 {
+    color: white;
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    top: 5vh;
+    left: 22vh;
+    font-size: 48px;
 }
 
 .left-container > figcaption {
     color: white;
     z-index: 1;
-    position: relative;
-    top: 95vh;
-    left: 100%;
+    position: absolute;
     margin: auto;
+    top: 95vh;
+    left: 22vh;
 }
 
 .left-container > figcaption > a {
