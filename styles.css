@@ -16,7 +16,7 @@ body {
     font-size: 16px;
 }
 
-.left-container > img {
+.left-container > #space-monkey {
     max-width: 400vw;
     max-height: 100vh;
 }
