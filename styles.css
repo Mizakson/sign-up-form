@@ -29,8 +29,8 @@ body {
     position: absolute;
     width: 65px;
     height: 68px;
-    left: 2.5%;
-    top: 4%;
+    left: 20%;
+    top: 5%;
     margin: auto;
 }
 
@@ -42,6 +42,7 @@ body {
     top: 5vh;
     left: 22vh;
     font-size: 48px;
+    text-decoration: overline;
 }
 
 .left-container > figcaption {
