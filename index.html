@@ -26,22 +26,22 @@
         <form action="https://httpbin.org/post" method="post" class="sign-up-form">
             <fieldset id="main">
                 <label for="first_name">first name</label>
-                <input type="text" id="first_name" name="first_name">
+                <input type="text" id="first_name" name="first_name" required>
 
                 <label for="last_name">last name</label>
-                <input type="text" id="last_name" name="last_name">
+                <input type="text" id="last_name" name="last_name" required>
             
                 <label for="email">email</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
 
                 <label for="phone_num">phone number</label>
-                <input type="tel" id="phone_num" name="phone_num">
+                <input type="tel" id="phone_num" name="phone_num" required>
             
-                <label for="password">password</label>
-                <input type="password" id="password" name="password">
+                <label for="password">password <span>*</span></label>
+                <input type="password" id="password" name="password" required>
                 
-                <label for="confirm-password">confirm password</label>
-                <input type="password" id="confirm-password" name="confirm-password">
+                <label for="confirm-password">confirm password <span>*</span></label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
             </fieldset>
             <button type="submit">create account</button>
         </form>
@@ -49,5 +49,6 @@
             <h2>Already have an account? <a href="">Log In</a></h2>
         </div>
     </div>
+    <script src="javascript.js"></script>
 </body>
 </html>

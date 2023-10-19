@@ -134,11 +134,20 @@ label {
     margin: 3px;
 }
 
+.already-user {
+    text-align: center;
+    padding: 7vh;
+}
+
+/* input box styling */
 input {
     margin: 5px;
 }
 
-.already-user {
-    text-align: center;
-    padding: 7vh;
+.clicked-input {
+    border: 2px solid lightblue;
+}
+
+.error-input {
+    border: 2px solid red;
 }
