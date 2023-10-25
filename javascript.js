@@ -1,5 +1,4 @@
-const formBox = document.querySelector('input');
+// DOM ELEMENTS
 
-formBox.addEventListener('mousedown', () => {
-    formBox.classList.toggle('clicked-input');
-});
+const mainFieldset = document.getElementById('main');
+const formBox = document.querySelector('input');

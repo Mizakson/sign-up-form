@@ -75,7 +75,6 @@ body {
 .studio-information > h1 {
     margin: 15px;
     font-size: 10vh;
-    font-style: italic;
 }
 
 .studio-information > h2 {
@@ -100,7 +99,7 @@ body {
     justify-content: center;
     border-width: 0;
     border: 0;
-    gap: 5px;
+    gap: 10px;
 }
 
 /* fieldset {
@@ -139,15 +138,9 @@ label {
     padding: 7vh;
 }
 
-/* input box styling */
-input {
-    margin: 5px;
-}
-
-.clicked-input {
-    border: 2px solid lightblue;
-}
-
-.error-input {
-    border: 2px solid red;
+#main > input:focus {
+    outline: none;
+    border: 5px solid lightblue;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
 }
