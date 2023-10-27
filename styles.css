@@ -144,17 +144,3 @@ label {
     box-shadow: 0 0 5px;
     border-radius: 5px;
 }
-
-/* #main > input.match:focus {
-    outline: none;
-    border: 5px solid lightgreen;
-    box-shadow: 0 0 5px;
-    border-radius: 5px; 
-}
-
-#main > input.no-match:focus {
-    outline: none;
-    border: 5px solid pink;
-    box-shadow: 0 0 5px;
-    border-radius: 5px;
-} */
