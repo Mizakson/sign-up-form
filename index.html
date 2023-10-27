@@ -23,25 +23,25 @@
                 and upcoming film release dates, create an account below!
             </h2>
         </div>
-        <form action="https://httpbin.org/post" method="post" class="sign-up-form" autocomplete="off">
+        <form method="post" action="https://httpbin.org/post" class="sign-up-form">
             <fieldset id="main">
                 <label for="first_name">first name</label>
-                <input type="text" id="first_name" name="first_name" required>
+                <input type="text" id="first_name" name="first_name" autocomplete="name" required>
 
                 <label for="last_name">last name</label>
-                <input type="text" id="last_name" name="last_name" required>
+                <input type="text" id="last_name" name="last_name" autocomplete="family-name" required>
             
                 <label for="email">email</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" autocomplete="email" required>
 
                 <label for="phone_num">phone number</label>
                 <input type="tel" id="phone_num" name="phone_num" required>
             
-                <label for="password">password <span>*</span></label>
-                <input type="password" id="password" name="password" required>
+                <label for="pword" title="Password must contain at least 8 characters, one uppercase, one lowercase, and one number">password <span>*</span></label>
+                <input type="password" id="pword" name="pword" autocomplete="new-password" required>
                 
-                <label for="confirm-password">confirm password <span>*</span></label>
-                <input type="password" id="confirm-password" name="confirm-password" required>
+                <label for="confirm-pword" title="Password must contain at least 8 characters, one uppercase, one lowercase, and one number">confirm password <span>*</span></label>
+                <input type="password" id="confirm-pword" name="confirm-pword" autocomplete="new-password" required>
             </fieldset>
             <button type="submit">create account</button>
         </form>
